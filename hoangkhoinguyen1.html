@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>responsive equal height column in a row</title>
+    <style>
+        .wrapper{
+            display:grid;
+            grid-template-columns: 1.25fr 4fr;
+
+
+        }
+        .nested{
+            display: grid;
+            grid-template-columns: 2.5fr 4fr;
+        }
+        .wrapper > div{
+            margin: 0.25em;
+            padding: 1em;
+        }
+        .wrapper >div:nth-child(odd){
+            background: darkslateblue;
+
+        }
+        .item{
+            paddiing: 1rem;
+            text-align: left;
+            color: aliceblue;
+        }
+        .wrapper1 > div{
+            background: #00acc1;
+            padding: 1em;
+        }
+        .item1{background-color: white}
+        .item2{background-color:lightgrey}
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div>
+        <dev class="image">
+            <img src="https://bit.ly/2Z3U6RL" alt="hello" width="300px" height="300px">
+        </dev>
+    </div>
+    <div class="item2">
+        <H1>
+            <b>HOANG KHOI NGUYEN</b>
+        </H1>
+        <H4>
+            <b>WEB DEVELOPMENT</b>
+        </H4>
+        <b>-----------------------------------------------</b>
+    </div>
+    <div class="item">
+        <b>CONTACT</b><br>
+        <b>-----------------------------------------------</b>
+        <div>PHONE : 0919062158</div>
+        <div>EMAIL : hoangkhoinguyen3001@gmail.com</div>
+        <div>ADDRESS : 62/10 Chu Thien,f.hiep tan,q.tan phu</div>
+        <b>EDUCATION</b><br>
+        <b>-----------------------------------------------</b>
+        <div>DEGREE NAME : ADSE</div>
+        <div>UNIVERSITY NAME : APTECH</div>
+    </div>
+    <div>
+        <b>PERSONAL DETAIL</b>
+        <b>-----------------------------------------------</b>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam ex facilis harum maiores pariatur quod. Eius non quaerat qui quos recusandae voluptatem. Consequatur magni, tempore? Corporis enim expedita explicabo molestias vel. Libero maxime natus nobis, nulla repellat sint! A animi doloremque error facilis illo in incidunt inventore iste laudantium magnam minima mollitia necessitatibus, nisi nobis nulla qui, quibusdam quidem quos reiciendis repudiandae rerum, sed sequi sunt tenetur voluptatem. Ad, debitis voluptas? Dolore fugiat maxime, rem reprehenderit sunt vitae? Iusto!</div><br>
+        <div class="item2">
+                <b>TECHNICAL SKILLS</b>
+                <b>-----------------------------------------------</b>
+                <div class="nested">
+                <DIV>HTML</DIV>
+                    <div>50%</div>
+                <DIV>WORDPRESS</DIV>
+                    <div>50%</div>
+                <DIV>C/C++</DIV>
+                    <div>50%</div>
+                <DIV>CSS</DIV>
+                    <div>50%</div>
+                <DIV>JAVACRIPT</DIV>
+                    <div>50%</div>
+                </div>
+        </div>
+    </div>
+    <div class="item">
+        PERSONAL INFO
+        <p>-----------------------------------------------</p>
+        <div>FATHER NAME : HOANG DINH THANH</div>
+        <div>RELATIONSHIP : MARRIED</div>
+        <div>NATIONALITY : VIETNAM</div>
+    </div>
+    <div>
+        <b>SOFTWARE SKILLS</b>
+        <b>-----------------------------------------------</b>
+        <div class="nested">
+            <DIV>COREDRAW</DIV>
+            <div>50%</div>
+            <DIV>WORDPRESS</DIV>
+            <div>50%</div>
+            <DIV>MS WORD</DIV>
+            <div>50%</div>
+            <DIV>MS EXCEL</DIV>
+            <div>50%</div>
+            <DIV>VISUAL STUDIO</DIV>
+            <div>50%</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
