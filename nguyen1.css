@@ -36,3 +36,24 @@ div,.debug*{
 .menuR{
     float: right;
 }
+.menuwrapper{
+    border: 1px solid #e7e7e7;
+    overflow: auto;
+    background: #f8f8f8;
+
+}
+.menuwrapper ul li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    color: gray;
+}
+.menuwrapper ul li.active {
+    color: deepskyblue;
+    background-color: #f8f8f8;
+    padding: 15px;
+    font-size: 30px;
+}
+.menuwrapper ul li a:hover{
+    color: deepskyblue;
+}
