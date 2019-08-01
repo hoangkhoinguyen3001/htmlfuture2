@@ -57,3 +57,10 @@ div,.debug*{
 .menuwrapper ul li a:hover{
     color: darkslateblue;
 }
+span{
+    font-size: .5em;
+    position: absolute;
+    top: 25px;
+    left: auto;
+    margin-left: -10px;
+}
