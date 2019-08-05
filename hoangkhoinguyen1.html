@@ -1,45 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>responsive equal height column in a row</title>
+    <link rel="stylesheet" href="nguyen1.css">
+
     <style>
-        .wrapper{
-            display:grid;
-            grid-template-columns: 1.25fr 4fr;
 
-
-        }
-        .nested{
-            display: grid;
-            grid-template-columns: 2.5fr 4fr;
-        }
-        .wrapper > div{
-            margin: 0.25em;
-            padding: 1em;
-        }
-        .wrapper >div:nth-child(odd){
-            background: darkslateblue;
-
-        }
-        .item{
-            paddiing: 1rem;
-            text-align: left;
-            color: aliceblue;
-        }
-        .wrapper1 > div{
-            background: #00acc1;
-            padding: 1em;
-        }
-        .item1{background-color: white}
-        .item2{background-color:lightgrey}
     </style>
 </head>
 <body>
+<div class="menuwrapper">
+    <div class="menuL">
+        <ul>
+            <li class="active">bootsnipp</li>
+            <li><a>bootstrap</a></li>
+            <li><a>
+                <span>for</span>
+                bootrap</a></li>
+        </ul>
+    </div>
+    <div class="menuR">
+        <ul>
+            <li><a>templates</a></li>
+            <li><a>tools</a></li>
+            <li><a>snippet</a></li>
+            <li><a>register</a></li>
+            <li><a>login</a></li>
+        </ul>
+    </div>
+
+</div>
 <div class="wrapper">
     <div>
-        <dev class="image">
+        <div class="image">
             <img src="https://bit.ly/2Z3U6RL" alt="hello" width="300px" height="300px">
-        </dev>
+        </div>
     </div>
     <div class="item2">
         <H1>
