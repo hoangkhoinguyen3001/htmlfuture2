@@ -1,87 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>fontawesome</title>
-    <link rel="stylesheet" href="nguyen1.css">
+    <title>responsive equal height column in a row</title>
+    <style>
+        .wrapper{
+            display:grid;
+            grid-template-columns: 1.25fr 4fr;
+            border: 1px solid rgba(122,0,0,.3);
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: white;
 
+        }
+        .background{
+            background-color: gainsboro;
+        }
+        .wrapper > div{
+            margin: 0.25em;
+            padding: 1em;
+            border: 1px solid rgba(122,0,0,.3);
+        }
+        .wrapper >div:nth-child(odd){
+            border: 1px solid rgba(122,0,0,.3);
 
+        }
+
+        .item2{
+            border: 1px solid rgba(122,0,0,.3);
+            height: 10em;
+        }
+    </style>
 </head>
-<body>
-
+<body class="background">
 <div class="wrapper">
     <div>
-        <div class="image">
-            <img src="https://bit.ly/2Z3U6RL" alt="hello" width="350px" height="300px">
-        </div>
-    </div>
-    <div class="itemhead">
-        <H1>
-            <b>HOANG KHOI NGUYEN</b>
-        </H1>
-        <H4>
-            <b>WEB DEVELOPMENT</b>
-        </H4>
-        <b>-----------------------------------------------</b>
-    </div>
-    <div class="item">
-        <b>CONTACT</b><br>
-        <b>-----------------------------------------------</b><br><br>
-        <div><i class="fa fa-phone"></i> &nbsp; PHONE</div>
-        <div>0919062158</div><br>
-        <div><i class="fa fa-envelope"></i> &nbsp; EMAIL</div>
-        <div>hoangkhoinguyen3001@gmail.com</div><br>
-        <div><i class="fa fa-map-marker"></i> &nbsp; ADDRESS</div>
-        <div>62/10 Chu Thien St,Hiep Tan Ward,Tan Phu Country</div><br>
-        <b>EDUCATION</b><br>
-        <b>-----------------------------------------------</b><br><br>
-        <div><i class="fa fa-star"></i> &nbsp; DEGREE NAME : ADSE</div><br>
-        <div><i class="fa fa-star"></i> &nbsp; UNIVERSITY NAME : APTECH</div><br>
-    </div>
-    <div class="item2">
-        <b>PERSONAL DETAIL</b><br><br>
-        <b>-----------------------------------------------</b>
-        <div>HI! everyone , my name is Nguyen...i'm having a lot of fun because i can introduce myself...everything is funny and dont think anymore then... </div><br>
         <div class="item2">
-            <b>TECHNICAL SKILLS</b><br><br>
-            <b>-----------------------------------------------</b>
-            <div class="nested">
-                <DIV>HTML</DIV>
-                <div>50%</div>
-                <DIV>WORDPRESS</DIV>
-                <div>50%</div>
-                <DIV>C/C++</DIV>
-                <div>50%</div>
-                <DIV>CSS</DIV>
-                <div>50%</div>
-                <DIV>JAVACRIPT</DIV>
-                <div>50%</div>
-            </div>
+            <b>IMAGE</b>
+
         </div>
     </div>
-    <div class="item">
-        <div>PERSONAL INFO</div>
-        <p>-----------------------------------------------</p>
-        <div><i class="fa fa-male"></i> &nbsp; FATHER NAME :THANH HOANG</div><br>
-        <div><i class="fa fa-users"></i> RELATIONSHIP : MARRIED</div><br>
-        <div><i class="fa fa-flag-o"></i> NATIONALITY : VIETNAM</div><br>
+    <div>
+        <div class="item2">
+            <b>HOANG KHOI NGUYEN</b><br>
+            <b>DEVELOPMENT</b>
+
+        </div>
     </div>
-    <div class="itemfoot">
-        <b>SOFTWARE SKILLS</b><br><br>
-        <b>-----------------------------------------------</b>
-        <div class="nested">
-            <DIV>PHOTOSHOP</DIV>
-            <div>50%</div>
-            <DIV>WORDPRESS</DIV>
-            <div>50%</div>
-            <DIV>MS WORD</DIV>
-            <div>50%</div>
-            <DIV>MS EXCEL</DIV>
-            <div>50%</div>
-            <DIV>WEB STORM</DIV>
-            <div>50%</div>
+    <div >
+        <div class="item2">
+            <b>CONTACT</b>
+        </div>
+    </div>
+    <div >
+        <div class="item2">
+            <b>PERSONAL DETAIL</b>
+
+        </div>
+    </div>
+    <div>
+
+        <div class="item2">
+            <b>PERSONAL INFO</b>
+        </div>
+    </div>
+    <div>
+        <div class="item2">
+            <b>TECHNICAL SKILLS</b>
+        </div>
+    </div>
+    <div>
+        <div class="item2">
+            <b>LANGUAGE</b>
+        </div>
+    </div>
+    <div>
+        <div class="item2">
+            <b>SOFTWARE SKILLS</b>
+
         </div>
     </div>
 </div>
-<script src="https://kit.fontawesome.com/c79d60eb1d.js" data-auto-replace-svg="nest"></script>
 </body>
 </html>
