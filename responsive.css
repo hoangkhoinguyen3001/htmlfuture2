@@ -1,0 +1,30 @@
+.wrapper{
+    border: 1px solid rgba(122,0,0,.3);
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+}
+.background{
+    background-color: gainsboro;
+}
+.wrapper > div{
+    margin: 0.25em;
+    padding: 1em;
+    border: 1px solid rgba(122,0,0,.3);
+}
+.wrapper >div:nth-child(odd){
+    border: 1px solid rgba(122,0,0,.3);
+
+}
+
+.item2 {
+    border: 1px solid rgba(122, 0, 0, .3);
+    height: 10em;
+}
+@media (min-width: 360px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1.25fr 3fr;
+    }
+
+}
