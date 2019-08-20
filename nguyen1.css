@@ -105,3 +105,86 @@ body > div > div:nth-child(4) > div:nth-child(4) > div:nth-child(10):hover {
 body > div > div:nth-child(1) > img:hover{
     border-radius: 30%;
 }
+.nav {
+    /*display: grid;*/
+    /*grid-template-columns: auto auto auto auto auto auto auto auto;*/
+    margin-left: 15%;
+    margin-right: 20%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: darkslateblue;
+    color: white;
+}
+@media (min-width: 360px) {
+    .nav {
+        display: grid;
+        grid-template-columns: 80px 80px 70px 100px 250px 300px;
+    }
+}
+.alignco{
+    padding-top: 10px;
+    text-align: left;
+}
+.disable{
+    padding-top: 10px;
+    text-align: left;
+}
+.logo{
+    padding-top: 10px;
+    color: lightgreen;
+    text-align: left;
+    padding-left: 10px;
+}
+.dropdown{
+    padding-top: 10px;
+    text-align: left;
+}
+.dropdown-menu{
+    list-style-type: none;
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+body > div.nav > div > a:hover{
+    color: lightgreen;
+}
+.button{
+    border: 1px solid lightgreen;
+    color: lightgreen;
+    background: none;
+    width: 70px;
+    height: 30px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 8px;
+    margin-right: 5px;
+    border-radius: 7%;
+    transition: .6s;
+    padding-bottom: 5px;
+}
+.button:hover{
+    background: lightgreen;
+    color: white;
+    cursor: pointer;
+}
+.search-txt{
+    border: 1px solid lightgray;
+    height: 30px;
+    padding-left: 10px;
+}
+body > div.nav > div.search-box{
+    border-right:20px solid gainsboro;
+}
+.pagination{
+    border: 1px solid rgba(122,0,0,.3);
+    margin-left: 15%;
+    margin-right: 20%;
+}
+.pagin{
+    text-align: center;
+    height: 60px;
+    padding-top: 30px;
+}
